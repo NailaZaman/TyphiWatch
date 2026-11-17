@@ -1,0 +1,16 @@
+# Nextflow
+.nextflow*
+work/
+# Results: keep the folder layout, ignore large outputs. Remove a line to commit that output.
+results/**/*
+!results/**/.gitkeep
+!results/figures/*.png
+results/pipeline_info/
+# Data
+data/reference/*.gbk
+data/accession_list.candidates.tsv
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+*:Zone.Identifier

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use TyphiWatch, please cite it as below."
+title: "TyphiWatch: a Nextflow workflow for Salmonella Typhi whole-genome surveillance"
+type: software
+version: 0.1.0
+date-released: 2026-11-15
+license: MIT
+authors:
+  - family-names: "Zaman"
+    given-names: "Naila"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/NailaZaman/TyphiWatch"
+keywords:
+  - Salmonella Typhi
+  - typhoid
+  - antimicrobial resistance
+  - whole-genome sequencing
+  - Nextflow
+  - genomic surveillance

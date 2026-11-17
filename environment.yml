@@ -1,0 +1,15 @@
+# Driver environment: Nextflow + the Python used for input prep and downstream figures.
+# The bioinformatics tools themselves run in Docker (-profile docker) or via per-process
+# conda environments (-profile conda), so they are not listed here.
+name: typhiwatch
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - nextflow>=23.10
+  - openjdk>=17
+  - pandas
+  - numpy
+  - matplotlib
+  - plotly        # optional: interactive HTML

@@ -1,0 +1,14 @@
+# TyphiWatch accession list - one accession per line (run, experiment or study).
+# Lines starting with '#' are ignored. 'resolve' expands each to run-level records via ENA.
+#
+# SRX7117257 : single XDR S. Typhi isolate from a traveler returning from Pakistan
+#              (BioProject PRJNA588448, Hao et al. 2020)
+# ERP109468  : ENA study of 536 S. Typhi isolates from Bangladesh (Tanmoy et al. 2018).
+#              Too big to run in full: use  resolve --max-per-accession 20
+accession
+SRX7117257
+ERP109468
+#
+# To add more (e.g. Pakistan):
+#   python scripts/metadata_processing.py search --country Pakistan --max 40
+# then copy lines from data/accession_list.candidates.tsv into this file.
